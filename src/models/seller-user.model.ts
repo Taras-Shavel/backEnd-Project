@@ -2,7 +2,7 @@ import { model, Schema } from "mongoose";
 
 import { EGender } from "../enums/user.enum";
 const userSchema = new Schema({
-  name: {
+  firstName: {
     type: String,
   },
   surName: {
